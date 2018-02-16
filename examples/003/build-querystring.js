@@ -7,7 +7,7 @@ const querystring = require('querystring');
 const apiHost = 'https://jira.my-company.com/rest/api/latest/search?jql=';
 
 const jqlParams = {
-  assignee: 'shaun.stone',
+  assignee: 'thomas.mcaloone',
   startAt: 2,
   maxResults: 2,
 };

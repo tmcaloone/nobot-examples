@@ -38,7 +38,7 @@ if (index === -1) {
 }
 
 const smsMessage = {
-  body: `Hi Bub, I'd like ${foodChoices[index]}`,
+  body: `Hi Bub, I would like ${foodChoices[index]}`,
   from: TWILIO_PHONE_NUMBER,
   to: MY_SPOUSE_NUMBER,
 };

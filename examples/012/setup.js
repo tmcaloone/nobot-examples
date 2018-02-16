@@ -2,7 +2,7 @@
 
 require('colors');
 const shell = require('shelljs');
-const { repositories } = require('./config');
+const { repositories } = require('./config.example');
 
 const { delivery } = repositories;
 
